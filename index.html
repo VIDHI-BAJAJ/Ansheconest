@@ -17,7 +17,9 @@
     <meta property="og:url" content="index.html">
     <link rel="icon" href="./images/Logo.png" type="image/icon type" sizes="64x64">
     <link href="https://fonts.googleapis.com/css?family=Lato:400|Montserrat:500,600,800" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="headerstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </head>
 <body>
     <!-- header -->
@@ -32,8 +34,51 @@
             <a href="tel:+916303315779" target="_blank"> +916303315779</a>
             </div>
         </div>
+        <div class="social">
+            <div class="icon">
+                <a href="https://www.facebook.com/" ><img src="./Images/Facebook.png" style="height :25px; weight :25px "></a>
+               <a href="https://www.linkedin.com/home"><img src="./Images/linkedin.png" style="height :25px; weight :25px "></a>
+            </div>
+        </div>
         </div>
      </div>
+     <!-- navbar -->
+     <nav class="navbar">
+        <div class="container">
+      
+          <div class="navbar-header">
+            <button class="navbar-toggler" data-toggle="open-navbar1">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+            <a href="./index.html">
+              <img src="./Images/Logo.png">
+            </a>
+          </div>
+      
+          <div class="navbar-menu" id="open-navbar1">
+            <ul class="navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+              <li class="navbar-dropdown">
+                <a href="#" class="dropdown-toggler" data-dropdown="my-dropdown-id">
+                  Products <i class="fas fa-chevron-down"></i>
+                </a>
+                <ul class="dropdown" id="my-dropdown-id">
+                  <li><a href="#">100ml Paper Cup</a></li>
+                  <li><a href="#">200ml Paper Cup</a></li>
+                  <li><a href="#">300ml Paper Cup</a></li>
+                  <li><a href="#">400ml Paper Cup</a></li>
+                  <li><a href="#">500ml Paper Cup</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- endnav -->
      <!-- endheader -->
     <script src="script.js"></script>
 </body>
