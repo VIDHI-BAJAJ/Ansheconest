@@ -147,13 +147,6 @@
     background-position: center;
   }
   
-  .content:nth-of-type(4) {
-    background: transparent;
-    background-image: url("./Images/banner3.jpg");
-    background-size: cover; 
-    background-repeat: no-repeat;
-    background-position: center;
-  }
 
   
   .paddT{
