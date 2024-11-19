@@ -56,10 +56,28 @@ body{
     margin-left: 750px;
     margin-bottom: 12px;
 }
-@media (max-width: 1200px) {
-    
+@media (max-width: 1256px) {
+  .social{
+    margin-left: 650px;  
 }
-@media (max-width: 800px) {
+}
+@media (max-width: 1188px) {
+  .social {
+      margin-left: 550px;
+  }
+}
+@media (max-width: 1056px) {
+  .social {
+      margin-left: 500px;
+  }
+}
+
+@media (max-width: 1056px) {
+  .social {
+      margin-left: 450px;
+  }
+}
+@media (max-width: 1000px) {
     .social {
         display: none;
     }
@@ -293,4 +311,3 @@ body{
       font-size: 1.05rem;
     }
   }
-  

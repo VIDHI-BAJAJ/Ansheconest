@@ -130,3 +130,35 @@
     background-color: #0056b3;
     color: #fff;
 }
+
+
+@media (max-width: 290px){
+    .btn1 {
+        margin-left: 70px;
+    }
+    }
+@media (max-width: 980px){
+    .btn1 {
+        margin-left: 386px;
+    }
+    }
+@media (max-width: 720px) {
+        .btn1 {
+            margin-left: 262px;
+        }
+    }
+@media (max-width: 600px) {
+        .btn1 {
+            margin-left: 197px;
+        }
+    }
+@media (max-width: 480px) {
+        .btn1 {
+            margin-left: 150px;
+        }
+    }
+@media (max-width: 400px) {
+        .btn1 {
+            margin-left: 121px;
+        }
+    }
