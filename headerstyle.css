@@ -82,7 +82,11 @@ body{
         display: none;
     }
 }
-
+@media(max-width :492px){
+.header {
+  display: none;
+}
+}
   /* navbar */
   a {
     text-decoration: none;
