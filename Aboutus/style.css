@@ -96,7 +96,148 @@
      width: 400px;
      border-radius: 10px;
     }
+/* Extra Large Devices (Desktops & Large Laptops) */
+@media screen and (max-width: 1400px) {
+    .profile-section {
+        margin: 20px 60px;
+    }
+    
+    .profile-image .img1,
+    .profile-image .img2 {
+        width: 350px;
+    }
+    
+    .about-content h2 {
+        margin-left: 60px;
+    }
+    
+    .about-content p {
+        margin-left: 160px;
+        margin-right: 60px;
+    }
+}
 
+/* Large Devices (Laptops/Desktops) */
+@media screen and (max-width: 1200px) {
+    .profile-section {
+        margin: 20px 40px;
+    }
+    
+    .profile-info {
+        padding: 0px 40px 0px 0px;
+    }
+    
+    .profile-image .img1,
+    .profile-image .img2 {
+        width: 300px;
+    }
+    
+    .about-content h2 {
+        font-size: 40px;
+        margin-left: 40px;
+    }
+    
+    .about-content p {
+        margin-left: 120px;
+        margin-right: 40px;
+    }
+}
+
+/* Medium Devices (Tablets) */
+@media screen and (max-width: 992px) {
+    .about-content {
+        flex-direction: column;
+    }
+    
+    .about-content h2 {
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .about-content p {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .profile-section {
+        margin: 20px;
+    }
+    
+    .profile-card,
+    .profile-card.reverse {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .profile-info {
+        padding: 0 20px;
+        margin-bottom: 30px;
+    }
+    
+    .profile-card.reverse .profile-info {
+        padding: 0 20px;
+    }
+    
+    .profile-image .img1,
+    .profile-image .img2 {
+        width: 100%;
+        max-width: 400px;
+        margin-left: 0;
+    }
+}
+
+/* Small Devices (Mobile phones) */
+@media screen and (max-width: 768px) {
+    .about-us {
+        margin: 60px 10px 10px 10px;
+        padding: 10px;
+    }
+    
+    .about-content h2 {
+        font-size: 36px;
+        margin-left: 10px;
+    }
+    
+    .about-content p {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 14px;
+    }
+    
+    .profile-info h2 {
+        font-size: 32px;
+    }
+    
+    .profile-info .title {
+        font-size: 14px;
+    }
+    
+    .profile-info p {
+        font-size: 13px;
+    }
+}
+
+/* Extra Small Devices (Small Mobile phones) */
+@media screen and (max-width: 576px) {
+    .about-content h2 {
+        font-size: 32px;
+    }
+    
+    .profile-info h2 {
+        font-size: 28px;
+    }
+    
+    .profile-info {
+        padding: 0 10px;
+    }
+    
+    .profile-image .img1,
+    .profile-image .img2 {
+        width: 200%;
+        height: 100%;
+        margin-left: -71px;
+    }
+}
 /* contactbutton */
 .connect{
     margin-top: 50px;
@@ -130,7 +271,6 @@
     background-color: #0056b3;
     color: #fff;
 }
-
 
 @media (max-width: 290px){
     .btn1 {

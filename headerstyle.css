@@ -82,11 +82,7 @@ body{
         display: none;
     }
 }
-@media(max-width :492px){
-.header {
-  display: none;
-}
-}
+
   /* navbar */
   a {
     text-decoration: none;
@@ -113,11 +109,11 @@ body{
   }
   
   @media (max-width: 768px) {
-    .navbar,
-    .navbar > .container {
-      display: block;
+    .navbar, .navbar > .container {
+        display: block;
+        width: 96%;
     }
-  }
+}
   
   .navbar {
     background-color: #fff;
@@ -315,3 +311,20 @@ body{
       font-size: 1.05rem;
     }
   }
+
+.navbar-toggler {
+    border: none;
+    background: transparent;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.navbar-toggler i {
+    font-size: 24px;  /* Adjust size as needed */
+    color: #000;      /* Black color */
+}
+
+/* Optional: Add hover effect */
+.navbar-toggler:hover i {
+    color: #333;  /* Slightly lighter black on hover */
+}
