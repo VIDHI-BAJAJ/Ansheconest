@@ -250,7 +250,6 @@
       z-index: 1;
   }
 
-  
   .accordion__header.active::after {
       transform: rotateX(180deg);
   }
