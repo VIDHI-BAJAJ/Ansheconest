@@ -96,6 +96,7 @@
      width: 400px;
      border-radius: 10px;
     }
+    
 /* Extra Large Devices (Desktops & Large Laptops) */
 @media screen and (max-width: 1400px) {
     .profile-section {

@@ -32,6 +32,63 @@
     color: #333;
     flex-basis: 75%;
 }
+/* Large Devices (Laptops/Desktops) */
+@media screen and (max-width: 1200px) {
+    .contact-content h2 {
+        font-size: 40px;
+        margin-left: 40px;
+    }
+    
+    .contact-content p {
+        margin-left: 120px;
+        margin-right: 40px;
+    }
+}
+
+/* Medium Devices (Tablets) */
+@media screen and (max-width: 992px) {
+    .contact-content{
+        flex-direction: column;
+    }
+    
+    .contact-content h2 {
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .contact-content p {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    
+}
+
+/* Small Devices (Mobile phones) */
+@media screen and (max-width: 768px) {
+    .contactus{
+        margin: 60px 10px 10px 10px;
+        padding: 10px;
+    }
+    
+    .contact-content h2 {
+        font-size: 36px;
+        margin-left: 10px;
+    }
+    
+    .contact-content p {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 14px;
+    }
+}
+
+/* Extra Small Devices (Small Mobile phones) */
+@media screen and (max-width: 576px) {
+    .contact-content h2 {
+        font-size: 32px;
+    } 
+}
 
 .contact-container {
     display: flex;
@@ -116,12 +173,19 @@
 /* Responsive Styles */
 @media (max-width: 768px) {
     .contact-container {
-        flex-direction: column;
-        padding: 20px;
+        padding: 2px;
     }
 
     .contact-info, .contact-form {
         text-align: center;
+    }
+    .contact-form {
+        flex: 1;
+        width: 100px;
+        margin: 21px;
+        padding: 56px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
     }
 
     .contact-info h2 {
@@ -148,7 +212,7 @@
 
 .question{
     max-width: 800px;
-    margin:0 auto;
+    margin:10px;
     display:flex;
     margin-top:30px
   }
@@ -176,7 +240,6 @@
   
   .accordion__header::after {
       content: '';
-      background: url(https://www.svgrepo.com/show/357035/angle-down.svg) no-repeat center;
       width: 20px;
       height: 20px;
       transition: .4s;
@@ -186,10 +249,7 @@
       top: 20px;
       z-index: 1;
   }
-  
-  .accordion__header.active {
-      background: #e5f3fa;
-  }
+
   
   .accordion__header.active::after {
       transform: rotateX(180deg);
