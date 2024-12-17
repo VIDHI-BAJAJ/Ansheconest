@@ -196,15 +196,16 @@
     font-size: 30px;
 }
 
-/* .aboutus h3 .our{
-    color: #438BB3;
-    margin-left: 4px;
-    text-decoration: underline;
+/* Responsive adjustments */
+@media (max-width: 552px) {
+    .aboutus h3{
+        margin-left: 75px;
+    }
+    .btn2 {
+        margin-left: 180px;
+    }
 }
-.aboutus h3  .product{
-    margin-left: 5px;
-    color: #438BB3;
-} */
+
 .scroll-container {
     overflow: hidden;
     white-space: nowrap;
@@ -235,6 +236,12 @@
     border: 1px solid #1F7CB0;
 }
 
+/* Responsive adjustments */
+@media (max-width: 552px) {
+    .btn2 {
+        margin-left: 180px;
+    }
+}
 
 /* Animation for infinite scroll */
 @keyframes scroll {
@@ -262,6 +269,12 @@
 }
 
 /* mission */
+/* Responsive adjustments */
+@media (max-width: 552px) {
+   .mission{
+    margin-top: 65px;
+   }
+}
 .mission-content{
     display: flex;
     align-items: flex-start;
@@ -407,13 +420,33 @@
 /* Responsive Styles */
 @media (max-width: 768px) {
     .testimonial-carousel {
-        max-width: 90%;
+        width: 107%;
     }
     .testimonial p {
         font-size: 14px;
     }
     .testimonial h4 {
         font-size: 12px;
+    }
+
+}
+@media (max-width: 590px) {
+.prev-btn {
+    left: -15px;
+}
+}
+@media (max-width: 552px) {
+    .testimonial-carousel {
+        max-width: 100%;
+    }
+    .testimonial p {
+        font-size: 14px;
+    }
+    .testimonial h4 {
+        font-size: 12px;
+    }
+    .testimonial-container {
+        width: 79%;
     }
 }
 
