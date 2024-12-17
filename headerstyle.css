@@ -77,8 +77,8 @@ body{
       margin-left: 450px;
   }
 }
-@media (max-width: 1000px) {
-    .social {
+@media (max-width: 500px) {
+    .header{
         display: none;
     }
 }
