@@ -301,6 +301,17 @@
             margin-left: 197px;
         }
     }
+    @media screen and (max-width: 484px) {
+        .connect h2 {
+            margin-left: 20px;
+        }
+        .connect p {
+            margin-left: 53px;
+        }
+        .btn1 {
+           margin-left: 176px;
+        }
+    }
 @media (max-width: 480px) {
         .btn1 {
             margin-left: 150px;
@@ -314,3 +325,4 @@
             margin-left: 121px;
         }
     }
+  
