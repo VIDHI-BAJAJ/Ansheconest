@@ -216,7 +216,7 @@
     display:flex;
     margin-top:30px
   }
-  
+
   /*start styles*/
   .accordion {
       display: flex;
@@ -232,7 +232,7 @@
   }
   
   .accordion__header {
-  padding: 20px 25px;
+      padding: 20px 25px;
       font-weight: 600;
       cursor: pointer;
       position: relative;
