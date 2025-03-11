@@ -40,7 +40,7 @@
     text-decoration: none;
     border-radius: 20px;
     font-size: 1em;
-    border: 1px solid #1F7CB0;
+    border: 1px solid #002c1B;
 }
 
 
@@ -163,8 +163,6 @@
     background-position: center;
   }
   
-
-  
   .paddT{
     padding-left: 3rem;
     padding-right: 3rem;
@@ -233,7 +231,7 @@
     text-decoration: none;
     border-radius: 20px;
     font-size: 1em;
-    border: 1px solid #1F7CB0;
+    border: 1px solid #002c1B;
 }
 
 /* Responsive adjustments */
@@ -265,7 +263,7 @@
     width: 100px;
     margin-top: -25px;
     margin-left: 620px;
-    color: #438BB3;
+    color: #002c1B;
 }
 
 /* mission */
@@ -380,7 +378,7 @@
     box-shadow: 8px 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     border: 0.5px solid black;
-    height: 140px;
+    height: 170px;
 }
 
 .testimonial p {
@@ -476,7 +474,7 @@
     border-radius: 20px;
     font-size: 1em;
     background-color: #fff;
-    border: 1px solid #1F7CB0;
+    border: 1px solid #002c1B;
 }
 
 
