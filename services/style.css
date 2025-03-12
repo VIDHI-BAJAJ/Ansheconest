@@ -166,12 +166,44 @@
         margin-top: 1px;
     }
     
-    @media (max-width: 768px) {
+    @media (max-width: 894px) {
         .service {
             width: calc(50% - 40px);
         }
     }
-    
+    @media (max-width: 800px) {
+    .image-container img {
+        margin-left: 96px;
+    }
+}
+@media (max-width: 715px) {
+    .image-container img {
+        margin-left: 80px;
+    }
+}
+@media (max-width: 700px) {
+    .service {
+       height: 400px;
+    }
+}
+@media (max-width: 690px) {
+    .image-container img {
+        margin-left: 60px;
+    }
+}
+@media (max-width: 690px) {
+    .service {
+        width: 415px;
+        margin: 1px 0px 10px 0px;
+        padding: 1px;
+    }
+    .image-container img {
+        margin-left: 151px;
+    }
+    .service p {
+        margin: 10px;
+    }
+}
     @media (max-width: 480px) {
         .mainservices {
             padding: 10px;
@@ -180,6 +212,12 @@
             width: 342px;
             margin: 1px 0px 10px 0px;
             padding: 1px;
+        }
+        .image-container img {
+            margin-left: 111px;
+        }
+        .service p {
+            margin: 10px;
         }
     }
     
@@ -191,3 +229,119 @@
     .service:hover p {
         color: #fff;
     }
+
+    
+.contactus{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+.contact-content{
+    display: flex;
+    align-items: flex-start;
+    margin: 20px 0;
+}
+.contact-content h2 {
+    margin-top: 2px;
+    font-size: 50px;
+    margin-bottom: 20px;
+    flex-basis: 25%;
+    margin-left: 120px;
+}
+
+.contact-content p {
+    margin-left: 260px;
+    margin-right: 120px;
+    text-align: justify;
+    margin-top: 2px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    flex-basis: 75%;
+}
+/* Large Devices (Laptops/Desktops) */
+@media screen and (max-width: 1200px) {
+    .contact-content h2 {
+        font-size: 40px;
+        margin-left: 40px;
+    }
+    
+    .contact-content p {
+        margin-left: 120px;
+        margin-right: 40px;
+    }
+}
+
+/* Medium Devices (Tablets) */
+@media screen and (max-width: 992px) {
+    .contact-content{
+        flex-direction: column;
+    }
+    
+    .contact-content h2 {
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .contact-content p {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    
+}
+
+/* Small Devices (Mobile phones) */
+@media screen and (max-width: 768px) {
+    .contactus{
+        margin: 60px 10px 10px 10px;
+        padding: 10px;
+    }
+    
+    .contact-content h2 {
+        font-size: 36px;
+        margin-left: 10px;
+    }
+    
+    .contact-content p {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 14px;
+    }
+}
+
+/* Extra Small Devices (Small Mobile phones) */
+@media screen and (max-width: 576px) {
+    .contact-content h2 {
+        font-size: 32px;
+    } 
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.contact-info {
+    flex: 1;
+    min-width: 250px;
+    padding: 20px;
+    text-align: left;
+}
+
+.contact-info h2 {
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: #333;
+    margin-left: 70px;
+}
