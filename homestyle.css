@@ -600,6 +600,10 @@
     .testimonial-wrapper {
       display: block;
     }
+    .testimonial-slide {
+      page-break-inside: avoid;
+      margin-bottom: 20px;
+    }
   }
 
 /* contactbutton */
