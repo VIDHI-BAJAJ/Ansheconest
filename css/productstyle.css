@@ -87,7 +87,7 @@
 
 .cta-button {
     display: block;
-    background-color: #002C1B;
+    background-color: #8D6E63;
     color: white;
     padding: 10px 20px;
     text-align: center;
@@ -108,7 +108,7 @@
 }
 
 .cta-button:hover {
-    background-color: #004d2e;
+    background-color: #8D6E63;
 }
 
 h1 {
@@ -196,6 +196,9 @@ h1 {
     }
 }
 
+
+/* contactbutton */
+/* Existing contactbutton styles */
 .connect{
     margin-top: 60px;
 }
@@ -216,20 +219,21 @@ h1 {
 }
 
 .btn1{
-    margin-left: 605px;
+    margin-left: 600px;
     padding: 15px 25px;
-    color: #000;
     text-decoration: none;
-    border-radius: 20px;
-    font-size: 1em;
-    background-color: #fff;
-    border: 1px solid #002C1B;
-    margin-bottom: 60px;
-}
-.btn1 a{
-    color: #000;
+    color: #fff;
+    border: 1px solid #002c1B;
+    background-color: #8D6E63;
     text-decoration: none;
     font-size: 15px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+.btn1 a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
 }
 
 /* Responsive styles */

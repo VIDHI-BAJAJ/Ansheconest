@@ -1,11 +1,12 @@
 body{
     margin: 0px;
     padding: 0px;
+    font-family: 'Montserrat', sans-serif;
     }
 
 .header{
     height: 40px;
-    background-color: #002c1B;
+    background-color: #066932;
 }
 .main{
     display: flex;
@@ -266,7 +267,7 @@ body{
 }
 
 .banner-content h1 {
-  font-size: 48px;
+  font-size: 30px;
     color: #fff;
     position: relative;
     line-height: 1.25em;
@@ -275,6 +276,11 @@ body{
   align-items: center;
   text-align: center;
   margin-top: 60px;
+}
+
+.banner-content h5{
+  font-size: 20px;
+  text-align: center;
 }
 
 @media (max-width: 768px) {
@@ -291,7 +297,7 @@ body{
   }
 
   .banner-content h1 {
-    font-size: 37px;
+    font-size: 28px;
     margin-top: 4px;
   }
 }
@@ -302,8 +308,7 @@ body{
   }
 
   .banner-content h1 {
-    font-size: 45px;
+    font-size: 25px;
     margin-top: 36px;
-
   }
 }

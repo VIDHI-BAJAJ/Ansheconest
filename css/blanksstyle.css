@@ -1,0 +1,183 @@
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  background: #fff;
+  padding: 40px;
+}
+
+.image-gallery {
+  flex: 1;
+  min-width: 300px;
+}
+
+.main-image img {
+  width: 100%;
+  height: 400px;
+  margin-top: 20px;
+ 
+}
+
+.thumbnail-images {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.thumbnail-images img {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+}
+
+.product-details {
+  flex: 1;
+  min-width: 300px;
+}
+
+.product-details h2 {
+  margin-bottom: 15px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+table th {
+  background-color: #f4f4f4;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+button.enquiry {
+    padding: 15px 25px;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #002c1B;
+    background-color: #8D6E63;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+button.call {
+  background-color: #2b9f4c;
+    padding: 15px 25px;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #002c1B;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+
+.related-products-section h3 {
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  color: #8D6E63;
+  margin-left: 40px;
+}
+
+.related-products-section h3 span {
+  margin-right: 10px;
+  white-space: nowrap;
+}
+
+.related-products-section h3::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  margin-right: 40px;
+  background: #000;
+}
+
+    /* Popup Overlay */
+    .popup-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.4);
+      display: none;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+    }
+
+    /* Popup Card */
+    .popup-card {
+      background: #fff;
+      padding: 30px;
+      width: 90%;
+      max-width: 500px;
+      border-radius: 10px;
+      position: relative;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    }
+
+    .popup-card h3 {
+      text-align: center;
+      color: #8d6e63;
+      margin-bottom: 20px;
+    }
+
+    .popup-card .close-btn {
+      position: absolute;
+      right: 15px;
+      top: 10px;
+      font-size: 24px;
+      cursor: pointer;
+      color: #333;
+    }
+
+    .enquiry-form .row {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 15px;
+    }
+
+    .enquiry-form input,
+    .enquiry-form select,
+    .enquiry-form textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+
+    .enquiry-form textarea {
+      height: 80px;
+      resize: none;
+      margin-top: 10px;
+    }
+
+    .enquiry-form button {
+      margin-top: 10px;
+      width: 100%;
+      padding: 10px;
+      background: #8d6e63;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+    }
