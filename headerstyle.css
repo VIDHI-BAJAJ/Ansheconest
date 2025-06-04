@@ -257,7 +257,7 @@ h1, h2, h3 {
   position: relative;
   width: 100%;
   height: 400px;
-  background: url('./Images/mainbanner.jpg') center/cover no-repeat;
+  background: url('./Images/mainbanner.png') center/cover no-repeat;
 }
 
 .banners::before {
