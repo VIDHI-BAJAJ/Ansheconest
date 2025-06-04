@@ -42,6 +42,7 @@ h1, h2, h3 {
   line-height: 1.3;
   color: #333;
   font-weight: 700;
+  text-align: justify;
 }
 
 .text-content p {
@@ -235,6 +236,7 @@ h1, h2, h3 {
   .text-content p {
     text-align: center;
     margin-bottom: 25px;
+    text-align: justify;
   }
   
   .btn {
@@ -399,6 +401,7 @@ h1, h2, h3 {
 @media (prefers-contrast: high) {
   .text-content h1 {
     color: #000;
+    text-align: justify;
   }
   
   .text-content p {
@@ -631,7 +634,7 @@ h1, h2, h3 {
     }
     .mission-content h3 {
         margin-top: 20px;
-        font-size: 30px;
+        font-size: 16px;
         margin-right: 31px;
     }
     .mission-content p {
@@ -746,6 +749,7 @@ h1, h2, h3 {
   line-height: 1.5;
   color: #666;
   margin: 0;
+  text-align: justify
 }
 
 /* Large Desktop (1200px and up) */
@@ -880,6 +884,7 @@ h1, h2, h3 {
   
   .contentinfo {
     gap: 10px;
+    text-align: justify;
   }
 }
 

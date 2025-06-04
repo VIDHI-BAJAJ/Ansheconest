@@ -47,9 +47,6 @@ h1, h2, h3 {
     font-size: 15px;
 }
 
-
-   
-
 .about-contents{
     display: flex;
     align-items: flex-start;
@@ -116,7 +113,8 @@ h1, h2, h3 {
 @media screen and (max-width: 992px) {
     .about-content {
         flex-direction: column;
-        margin: 30px;
+        margin: 20px;
+        gap: 1px;
     }
     
     .about-content h2 {
@@ -162,7 +160,7 @@ h1, h2, h3 {
 /* Small Devices (Mobile phones) */
 @media screen and (max-width: 768px) {
     .about-us {
-        margin: 20px 10px 10px 10px;
+       margin: 10px;
         padding: 10px;
     }
     
@@ -170,10 +168,14 @@ h1, h2, h3 {
         font-size: 36px;
         margin-left: 10px;
     }
-    
+     .about-content {
+        flex-direction: column;
+        margin: 10px;
+        gap: 1px;
+    }
     .about-content p {
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
         font-size: 14px;
     }
     .about-contents h2 {
@@ -207,6 +209,7 @@ h1, h2, h3 {
 @media screen and (max-width: 576px) {
     .about-content h2 {
         font-size: 32px;
+        margin-bottom: 10px;
     }
     .about-contents h2 {
         font-size: 32px;

@@ -148,6 +148,7 @@ h1, h2, h3 {
             font-size: 16px;
             line-height: 1.6;
             margin-bottom: 30px;
+            text-align: justify;
         }
 
         .learn-more-btn {
@@ -221,6 +222,7 @@ h1, h2, h3 {
             
             .service-description {
                 font-size: 15px;
+                text-align: justify;
             }
         }
 
