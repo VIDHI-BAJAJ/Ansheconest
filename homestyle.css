@@ -554,7 +554,7 @@ h1, h2, h3 {
     .scroll-content img {
       width: 100px;
     }
-    
+
     .btn2 {
       padding: 10px 18px;
       font-size: 0.85em;
@@ -581,7 +581,7 @@ h1, h2, h3 {
     margin: 60px 0;
 }
 
-.mission-content h3 {
+.mission-content h3{
     margin-top: 9px;
     font-size: 26px;
     margin-bottom: 20px;
