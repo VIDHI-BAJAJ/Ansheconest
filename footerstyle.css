@@ -1,3 +1,8 @@
+  body {
+  font-family: 'Inter', sans-serif;
+}
+
+
   .footer {
       position: relative;
       background-color: #002C1B;
@@ -24,7 +29,7 @@
     margin-left: 50px;
 }
   .footer .top h4 {
-      font-family: "Montserrat", "Open Sans", sans-serif;
+     
       font-size: 40px;
       font-weight: 900;
       display: block;
@@ -40,7 +45,6 @@
       font-size: 24px;
       color: #fff;
       margin-bottom: 15px;
-      font-family: "Montserrat", "Open Sans", sans-serif;
       font-weight: 900;
       line-height: 1.25em;
   }
@@ -48,7 +52,6 @@
     margin-left: 60px;
   }
   .footer .top p {
-    font-family: "Montserrat", "Open Sans", sans-serif;
     font-size: 16px;
     line-height: 1.75em;
     margin: 0 0 15px;
@@ -69,7 +72,6 @@
       display: block;
       -webkit-transition: all 500ms ease;
       transition: all 500ms ease;
-      font-family: "Montserrat", "Open Sans", sans-serif;
   }
   .footer .top .phones a {
       color: #fff;

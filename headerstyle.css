@@ -1,12 +1,21 @@
-body{
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Montserrat', sans-serif;
-    }
+
+    *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+}
+
 
 .header{
     height: 40px;
-    background-color: #066A33;
+    background-color: #044D25;
 }
 .main{
     display: flex;
@@ -116,7 +125,6 @@ body{
 }
 
 .nav-links a {
-    font-family: "Montserrat", "Open Sans", sans-serif;
     text-decoration: none;
     color: white;
     font-style: bold;
