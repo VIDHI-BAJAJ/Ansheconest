@@ -1,6 +1,7 @@
 /* General styles */
 body {
   font-family: 'Inter', sans-serif;
+  margin: 0px;
 }
 
 h1, h2, h3 {

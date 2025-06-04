@@ -2,6 +2,7 @@
 
 body {
   font-family: 'Inter', sans-serif;
+  margin: 0px;
 }
 
 h1, h2, h3 {
@@ -207,9 +208,6 @@ h1, h2, h3 {
                 padding: 30px 25px;
             }
             
-            body {
-                padding: 20px 15px;
-            }
         }
 
         @media (max-width: 480px) {
