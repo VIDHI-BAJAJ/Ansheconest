@@ -234,7 +234,7 @@ h1, h2, h3 {
     .card-container {
         display: flex;
         justify-content: space-between;
-        gap: 20px;
+        gap: 50px;
     }
     
     .card {
@@ -244,6 +244,7 @@ h1, h2, h3 {
         border-radius: 8px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         background-color: #fff;
+        height: 400px;
     }
     
     .card-image {
